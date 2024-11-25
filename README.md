@@ -64,5 +64,5 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Author
 
-- Website [your-website.com](https://devchallenge-join-our-newsletter.netlify.app)
-- GitHub [@your-username](https://github.com/Pogo182028)
+- Website [Join Our NewsLetter](https://devchallenge-join-our-newsletter.netlify.app)
+- GitHub [Pogo182028](https://github.com/Pogo182028)
