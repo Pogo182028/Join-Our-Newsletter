@@ -6,3 +6,9 @@
 .DS_Store
 .prettierignore
 
+
+# Local Netlify folder
+.netlify
+
+netlify.toml
+

@@ -100,6 +100,9 @@ img {
   background-color: var(--bg-form);
   padding: 2rem;
   border-radius: 1rem;
+  /* Box-shadow */
+  box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.03),
+    0px 8px 12px 0px rgba(0, 0, 0, 0.08);
 }
 
 .form__email {
@@ -136,13 +139,13 @@ img {
 
 /* Footer */
 .author-info {
-    font-size: var(--size-helperText);
-    color: var(--subheading-color);
-    text-align: center;
-    margin-top: 5rem;
+  font-size: var(--size-helperText);
+  color: var(--subheading-color);
+  text-align: center;
+  margin-top: 5rem;
 }
 
 .author-info a {
-    color: var(--bg-button);
-    text-decoration: none;
+  color: var(--bg-button);
+  text-decoration: none;
 }
