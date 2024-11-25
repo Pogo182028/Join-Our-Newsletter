@@ -1,0 +1,60 @@
+:root {
+  /* Font and text sizes */
+  --font-family: "Poppins", sans-serif;
+  --size-heading: 4.8rem;
+  --size-subheading: 2rem;
+  --size-placeholder: 1.6rem;
+  --size-button: 1.6rem;
+  --size-helperText: 1.4rem;
+
+  /* Colors */
+  --bg-body: #f9fafb;
+  --bg-form: #fff;
+  --bg-button: #284bce;
+  --bg-email: #e5e7eb;
+
+  --heading-color: #000;
+  --subheading-color: #6c727f;
+  --placeholder-color: #394150;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: var(--bg-body);
+  font-family: var(--font-family);
+}
+
+h1,
+p {
+  margin: 0;
+}
+
+h1 {
+  font-size: var(--size-heading);
+  color: var(--heading-color);
+}
+
+p {
+  font-size: var(--size-subheading);
+  color: var(--subheading-color);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  max-width: min(95%, 120rem);
+  margin: 0 auto;
+}
