@@ -89,7 +89,7 @@ img {
 
 @media (min-width: 1280px) {
   .form {
-    width: 40%;
+    width: 45%;
   }
 }
 
@@ -132,4 +132,17 @@ img {
 .form__helperText {
   color: var(--placeholder-color);
   font-size: var(--size-helperText);
+}
+
+/* Footer */
+.author-info {
+    font-size: var(--size-helperText);
+    color: var(--subheading-color);
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.author-info a {
+    color: var(--bg-button);
+    text-decoration: none;
 }
