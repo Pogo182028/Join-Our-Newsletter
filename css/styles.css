@@ -61,15 +61,75 @@ img {
 
 /* header */
 .header {
-    text-align: center;
-    margin-top: 10rem;
-    margin-bottom: 10rem;
+  text-align: center;
+  margin-top: 10rem;
+  margin-bottom: 5rem;
 }
 
 .heading {
-    margin: 2rem 0;
+  margin: 2rem 0;
 }
 
 .subHeading {
-    margin-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* form */
+@media (min-width: 640px) {
+  .form {
+    width: 90%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .form {
+    width: 50%;
+  }
+}
+
+@media (min-width: 1280px) {
+  .form {
+    width: 40%;
+  }
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--bg-form);
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+.form__email {
+  width: 100%;
+  font-size: var(--size-placeholder);
+  background-color: var(--bg-email);
+  text-align: center;
+  border: none;
+  border-radius: 1rem;
+  padding: 2rem 0;
+  margin-bottom: 2rem;
+}
+
+.form__email::placeholder {
+  color: var(--heading-color);
+  font-size: var(--size-placeholder);
+}
+
+.form__button {
+  width: 100%;
+  font-size: var(--size-button);
+  background-color: var(--bg-button);
+  color: var(--bg-form);
+  border: none;
+  border-radius: 1rem;
+  padding: 2rem 0;
+  margin-bottom: 2rem;
+}
+
+.form__helperText {
+  color: var(--placeholder-color);
+  font-size: var(--size-helperText);
 }
