@@ -58,3 +58,18 @@ img {
   max-width: min(95%, 120rem);
   margin: 0 auto;
 }
+
+/* header */
+.header {
+    text-align: center;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+.heading {
+    margin: 2rem 0;
+}
+
+.subHeading {
+    margin-bottom: 1rem;
+}
