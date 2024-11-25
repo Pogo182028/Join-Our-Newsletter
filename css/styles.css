@@ -117,7 +117,6 @@ img {
 }
 
 .form__email::placeholder {
-  color: var(--heading-color);
   font-size: var(--size-placeholder);
 }
 
@@ -133,7 +132,7 @@ img {
 }
 
 .form__helperText {
-  color: var(--placeholder-color);
+  color: var(--subheading-color);
   font-size: var(--size-helperText);
 }
 
